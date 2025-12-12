@@ -6,13 +6,12 @@ app = Flask(__name__)
 
 # Rutas (Principal)
 @app.route("/")
-def index():
+def home():
     return render_template("index.html")
 
-
-@app.route('/about')
-def about():
-    return 'Esta es la ruta de about 😎'
+@app.route('/pokemons-legendarios')
+def legendario():
+    return render_template("legendarios.html")
 
 
 # Ejecuta el servidor.
