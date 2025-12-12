@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pokedex - Mini</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Poké Ball" />
+      <h1>Pokedex Mini</h1>
+    </div>
+    <input class="search" type="search" placeholder="Buscar Pokémon (ej. pikachu)" aria-label="buscar" />
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="poke-id">#025</span>
+          <h2 class="poke-name">Pikachu</h2>
+        </div>
+        <img class="poke-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" />
+        <div class="types">
+          <span class="type electric">Electric</span>
+        </div>
+        <div class="stats">
+          <div><strong>Alt.</strong> 0.4 m</div>
+          <div><strong>Peso</strong> 6 kg</div>
+        </div>
+        <p class="desc">Ratón Pokémon. Tiene mejillas que almacenan electricidad.</p>
+        <button class="btn">Ver ficha</button>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="poke-id">#001</span>
+          <h2 class="poke-name">Bulbasaur</h2>
+        </div>
+        <img class="poke-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur" />
+        <div class="types">
+          <span class="type grass">Grass</span>
+          <span class="type poison">Poison</span>
+        </div>
+        <div class="stats">
+          <div><strong>Alt.</strong> 0.7 m</div>
+          <div><strong>Peso</strong> 6.9 kg</div>
+        </div>
+        <p class="desc">Semilla Pokémon. Lleva una planta en la espalda que crece con la energía solar.</p>
+        <button class="btn">Ver ficha</button>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="card-top">
+          <span class="poke-id">#004</span>
+          <h2 class="poke-name">Charmander</h2>
+        </div>
+        <img class="poke-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander" />
+        <div class="types">
+          <span class="type fire">Fire</span>
+        </div>
+        <div class="stats">
+          <div><strong>Alt.</strong> 0.6 m</div>
+          <div><strong>Peso</strong> 8.5 kg</div>
+        </div>
+        <p class="desc">Lagartija Pokémon. La llama en la cola indica su estado de ánimo.</p>
+        <button class="btn">Ver ficha</button>
+      </article>
+
+      <!-- Puedes clonar más .card para añadir más Pokémon -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Creado con ❤️ · Demo Pokedex</p>
+  </footer>
+</body>
+</html>
